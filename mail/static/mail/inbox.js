@@ -26,7 +26,7 @@ function send_email() {
   .then(response => response.json())
   .then(result => {
       // Print result
-      console.log("Success");
+      console.log(result);
   });
   localStorage.clear();
   load_mailbox('sent');
