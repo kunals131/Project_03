@@ -72,7 +72,7 @@ function load_mailbox(mailbox) {
 .then(emails => {
     // Print emails
     console.log(emails);
-    emails.forEach(email => show_email(email, mailbox));
+    emails.forEach(email => create_email(email, mailbox));
     // ... do something else with emails ...
 });
   
